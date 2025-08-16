@@ -4,34 +4,52 @@
 }
 
 body{
-  
     text-align: center;
+    margin-bottom:30px;
 }
 .contianer{
     margin-top: 20px;
     width: 800px;
-    background-color: aquamarine;
    margin-left: auto;
    margin-right: auto;
-    height: 700px;
+    height: 900px;
     border-radius: 10px;
     border: 1px solid yellowgreen;
-
+    box-shadow: 10px 10px 9px rgba(0,0,0,0.6);
+}
+.selecting{
+    width:510px;
+    padding:5px 4px;
 }
 .city-boxes1{
     margin-top: 18px;
     margin-left:10px;
     margin-right: 10px;
-   
-
 }
 .boxies{
-    
     height: 100px;
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
      margin-bottom: 5px;
     border-radius: 10px;
-   padding: 30px 20px 15px;
+   padding: 15px 15px 15px;
+}
+ .time{
+    font-size: 48px;
+}
+ .time small{
+    vertical-align: middle;
+    line-height:48px;
+    opacity: rgba(0,0,0,0.23);
+    
+}
+.name-spot h1{
+    font-size: 50px;
+}
+.name-spot .date{
+    opacity: 0.4;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom:30px;
 }
