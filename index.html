@@ -7,14 +7,41 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <header>
-    <h1>World Clock</h1>
-    </header>
     <div class="contianer">
-        <form class="form">
-            <input type="text" placeholder="search for a city" required>
-            <input type="submit" value="search">
-        </form>
+        <div class="header">
+        <h1>World Clock</h1>
+        </div>
+        <select id="options">
+           <option value="">Select city</option>
+            <option value="">Addis Abeba</option>
+             <option value="">paris</option>
+              <option value="">Seoul</option>
+               <option value="">Tokyo</option>
+        </select>
+        <div class="city-boxes">
+            <div class="city-boxes1">
+                <div id="addis" class="boxies">
+                    <p>addis abeba <br> <small>augest 15</small></p>
+                    
+                    <div class="time">11:20 AM</div>
+                </div>
+                  <div  id="paris" class="boxies">
+                    <p>paris <br> <small>augest 15</small></p>
+                   
+                    <div class="time">11:20 AM</div>
+                </div>
+                  <div id="seoul" class="boxies">
+                    <p>seoul <br> <small>augest 15</small></p>
+           
+                    <div class="time">11:20 AM</div>
+                </div>
+                  <div  id="Tokyo" class="boxies">
+                    <p>Tokyo <br> <small>augest 15</small></p>
+                  
+                    <div class="time">11:20 AM</div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer >
         <p>This Project Is Coded By Samrawite And Is <a href="https://github.com/sambee-coding/world-clock-sambee.git">Open Sourced On The Github</a></p>

@@ -8,15 +8,30 @@ body{
     text-align: center;
 }
 .contianer{
-    width: 650px;
+    margin-top: 20px;
+    width: 800px;
     background-color: aquamarine;
    margin-left: auto;
    margin-right: auto;
     height: 700px;
     border-radius: 10px;
     border: 1px solid yellowgreen;
-}
-.form{
-    padding-top: 20px;
 
+}
+.city-boxes1{
+    margin-top: 18px;
+    margin-left:10px;
+    margin-right: 10px;
+   
+
+}
+.boxies{
+    
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+     margin-bottom: 5px;
+    border-radius: 10px;
+   padding: 30px 20px 15px;
 }
