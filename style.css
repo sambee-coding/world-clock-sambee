@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+  
+    text-align: center;
+}
+.contianer{
+    width: 650px;
+    background-color: aquamarine;
+   margin-left: auto;
+   margin-right: auto;
+    height: 700px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+}
+.form{
+    padding-top: 20px;
+
+}
