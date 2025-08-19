@@ -6,13 +6,18 @@
 body{
     text-align: center;
     margin-bottom:30px;
+    background-color: #F5F1FE;
+}
+.header{
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .contianer{
     margin-top: 20px;
-    width: 800px;
+    width: 600px;
    margin-left: auto;
    margin-right: auto;
-    height: 900px;
+    height: 500px;
     border-radius: 10px;
     border: 1px solid yellowgreen;
     box-shadow: 10px 10px 9px rgba(0,0,0,0.6);
@@ -22,7 +27,7 @@ body{
     padding:5px 4px;
 }
 .city-boxes1{
-    margin-top: 18px;
+    margin-top: 30px;
     margin-left:10px;
     margin-right: 10px;
 }
@@ -44,7 +49,9 @@ body{
     
 }
 .name-spot h1{
+   
     font-size: 50px;
+    
 }
 .name-spot .date{
     opacity: 0.4;
